@@ -1,0 +1,11 @@
+Dataset,Prediction Length,MAE,MSE,MAPE,sMAPE,RMSE,Epochs,Batch Size (train and validation),Time (Train + Evaluation),Trainable Parameter,Dataset description (on the prompt fed to LLama),WB run name
+ETTh1,96,0.4292013,0.407647,966.681385,79.64510322,0.6384724,3,1,15h 28s,254377046,"""The Electricity Transformer Temperature (ETT) is vital for long-term electric power planning. The dataset covers 2 years from two Chinese counties, with subsets ETTh1, ETTh2 (1-hour) and ETTm1 (15-minutes), including 'oil temperature' and 6 power load features.""",easy-snow-46
+ETTh1,720,0.51350343,0.5229441,999.1345406,93.33325028,0.72314876,3,1,14h 38m 50s,336166598,same as ETTh1,lyric-sun-32
+ETTh2,96,0.3483379,0.28492475,138.7265325,55.11089563,0.53378344,3,1,15h 8m 37s,254377046,same as ETTh1,leafy-lion-47
+ETTh2,720,0.43507764,0.39916494,200.7665396,66.77100658,0.631795,3,1,13h 57m 2s,336166598,same as ETTh1,distinctive-puddle-36
+ETTm1,96,0.40298668,0.38415593,236.1031055,75.94239116,0.61980313,3,1,2d 18h 53m 42s,254377046,same as ETTh1,dauntless-snowball-43
+ETTm1,720,0.42903462,0.43749997,244.7061777,78.27423215,0.6614378,3,1,2d 10h 47m 21s,336166598,same as ETTh1,glowing-butterfly-50
+ETTm2,96,0.26891026,0.1811013,111.5358591,45.74674368,0.42556,3,1,2d 2h 21m 42s,254377046,same as ETTh1,gallant-capybara-48
+ETTm2,720,0.38798317,0.36644164,148.3323812,58.25506449,0.60534424,3,1,2d 2h 9m 12s,336166598,same as ETTh1,elated-deluge-51
+ILLNESS,24,1.1946931,3.025324,279.7644854,86.3466084,1.7393459,3,1,21m 50s,244939790,The Illness dataset collects the number of patients and influenza-like illness ratio in a weekly frequency,robust-plasma-52
+ILLNESS,60,1.2207638,3.2445328,231.8905354,87.89095283,1.8012587,3,1,14m 58s,249658418,The Illness dataset collects the number of patients and influenza-like illness ratio in a weekly frequency,lyric-sun-53
